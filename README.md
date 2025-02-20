@@ -1,0 +1,24 @@
+# Post-Hoc Generative Concept Bottleneck Models ([Project Website](https://lilywenglab.github.io/posthoc-generative-cbm/))
+
+* Our code and manuscript will be released soon, please stay tuned.
+* This is the official repository for the paper: "Interpretable Generative Models through Post-hoc Concept Bottlenecks"
+    * We are the first to propose a post-hoc concept bottleneck autoencoder (CB-AE) for interpretable generative models. CB-AE can be trained efficiently with a frozen pretrained generative model, without real concept-labeled images.
+    * We propose a novel optimization-based concept intervention method with improved steerability (average +19%) and higher image quality (average 32% better).
+    * We validate the effectiveness of our methods for GANs and diffusion models (avg. +31% and +28% steerability w.r.t. prior state-of-the-art) across varying image resolutions, while being 4-15x faster to train on average.
+
+## Sources
+
+[1] CBGM (ICLR 2024): [https://github.com/prescient-design/CBGM](https://github.com/prescient-design/CBGM)
+
+
+## Cite this work
+
+A. Kulkarni, G. Yan, C. Sun, T. Oikarinen, and T.-W. Weng, Interpretable Generative Models through Post-hoc Concept Bottlenecks, 2025
+
+```
+@article{kulkarni2025interpretable
+    title={Interpretable Generative Models through Post-hoc Concept Bottlenecks},
+    author={Kulkarni, Akshay and Yan, Ge and Sun, Chung-En and Oikarinen, Tuomas and Weng, Tsui-Wei},
+    year={2025},
+}
+```
