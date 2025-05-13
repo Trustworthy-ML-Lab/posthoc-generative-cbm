@@ -72,17 +72,27 @@ This is the official repository for the **CVPR 2025** paper: [Interpretable Gene
 
 ### Download concept classifier weights
 
-* [ResNet18](https://drive.google.com/uc?id=1xbR7MbERV7wMnU4WcsNSDriYXBqsy_jZ)-based classifiers for training and visualization.
-* [ViT-L-16](https://drive.google.com/uc?id=1XD6Badmf4QwRrdy6MbOr-mefyu1k_OIy)-based classifiers for quantitative evaluation.
+* [ResNet18 CelebA-HQ](https://drive.google.com/uc?id=1xbR7MbERV7wMnU4WcsNSDriYXBqsy_jZ)-based classifiers for training and visualization.
+* [ViT-L-16 CelebA-HQ](https://drive.google.com/uc?id=1XD6Badmf4QwRrdy6MbOr-mefyu1k_OIy)-based classifiers for quantitative evaluation.
     ```
     cd models/checkpoints
-    ## ResNet18
+    ## ResNet18 CelebA-HQ
     gdown https://drive.google.com/uc?id=1xbR7MbERV7wMnU4WcsNSDriYXBqsy_jZ
     unzip celebahq_rn18_conclsf.zip
-    ## ViT-L-16 (relatively large file of ~8.4 GB, so download only if you want to do evaluations)
+    ## ViT-L-16 CelebA-HQ (relatively large file of ~8.4 GB, so download only if you want to do evaluations)
     gdown https://drive.google.com/uc?id=1XD6Badmf4QwRrdy6MbOr-mefyu1k_OIy
     unzip celebahq_vitl16_conclsf.zip
+    ## ResNet18 CelebA (64x64)
+    gdown https://drive.google.com/uc?id=15m6xCI5JPZaz-BaSoCjHCJCeof53G4rC
+    unzip celeba64_rn18_conclsf.zip
+    ## ResNet50 CUB (256x256)
+    gdown https://drive.google.com/uc?id=1vW5Q41FGHXdTqbraz54AXQ2uoBKispLD
+    unzip cub_rn50_conclsf.zip
+    ## ResNet50 CUB (64x64)
+    gdown https://drive.google.com/uc?id=1vvlWd4MWB62-lyq2sPQAVhf5Pqc5Mnzf
+    unzip cub64_rn50_conclsf.zip
     ```
+* Other concept classifiers can be trained using `train/train_conclsf.py`.
 
 ## Demo
 
