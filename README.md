@@ -63,6 +63,12 @@ This is the official repository for the **CVPR 2025** paper: [Interpretable Gene
     gdown https://drive.google.com/uc?id=1fh2XV2ttrCc88-SgfR9f-JcwG1eent_U
     ```
 
+* CUB-pretrained StyleGAN2 (trained using [[4]](#sources)):
+    ```
+    ## base model weights
+    gdown https://drive.google.com/uc?id=1sW7WgvUFH2REZPQx88BjFneoItP9C0XB
+    ```
+
 * CelebA-HQ-pretrained DDPM-256x256 (from [[3]](#sources)):
     ```
     ## base model weights get downloaded automatically via HuggingFace when using "-e cbae_ddpm" (i.e. any config using this DDPM model)
@@ -155,6 +161,7 @@ This is the official repository for the **CVPR 2025** paper: [Interpretable Gene
 
 [3] [CelebA-HQ pretrained DDPM repo](https://huggingface.co/google/ddpm-celebahq-256)
 
+[4] [StyleGAN2-Ada PyTorch GitHub repo](https://github.com/NVlabs/stylegan2-ada-pytorch)
 
 ## Cite this work
 
