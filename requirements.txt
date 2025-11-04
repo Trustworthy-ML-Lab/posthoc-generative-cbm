@@ -10,3 +10,4 @@ ipywidgets
 diffusers
 accelerate
 gdown
+clean-fid
