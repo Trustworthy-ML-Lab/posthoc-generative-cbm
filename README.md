@@ -115,6 +115,7 @@ This is the official repository for the **CVPR 2025** paper: [Interpretable Gene
     * `-t`: specify experiment name to be used as a suffix for saving logs, checkpoints, etc.
     * `-p`: specify pseudo-label source $M$ for CB-AE/CC training (e.g. `supervised` for supervised-trained classifiers, `clipzs` for zero-shot CLIP classifiers, `tipzs` for few-shot adapted CLIP).
 * The same `train_cbae.sh` has commented out examples for training Concept Controller (CC) with StyleGAN2 and for CB-AE with DDPM.
+    * For DDPM training, first run `python3 eval/generate_ddpm_trainset.py` to save generated images from DDPM (faster than generating at training time). Also update the path to the real dataset in `--base-root` as that is used for evaluation (which is not possible in StyleGAN or other GANs).
 
 ## Evaluation
 
