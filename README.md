@@ -110,11 +110,11 @@ This is the official repository for the **CVPR 2025** paper: [Interpretable Gene
 
 * Use `bash scripts/train_cbae.sh` to train a CB-AE for a CelebA-HQ-pretrained StyleGAN2 with supervised classifiers as pseudo-label source.
 * Some important arguments to specify are:
-    * `-e`: specify which config file from the `config/` folder to use (e.g. `cbae_stygan2`).
+    * `-e`: specify which config file from the `config/` folder to use (e.g. `cbae_stygan2` or `cbae_ddpm`).
     * `-d`: specify dataset of base generative model (e.g. `celebahq`).
     * `-t`: specify experiment name to be used as a suffix for saving logs, checkpoints, etc.
     * `-p`: specify pseudo-label source $M$ for CB-AE/CC training (e.g. `supervised` for supervised-trained classifiers, `clipzs` for zero-shot CLIP classifiers, `tipzs` for few-shot adapted CLIP).
-* The same `train_cbae.sh` has commented out examples for training Concept Controller (CC).
+* The same `train_cbae.sh` has commented out examples for training Concept Controller (CC) with StyleGAN2 and for CB-AE with DDPM.
 
 ## Evaluation
 
