@@ -169,7 +169,7 @@ This is the official repository for the **CVPR 2025** paper: [Interpretable Gene
 A. Kulkarni, G. Yan, C. Sun, T. Oikarinen, and T.-W. Weng, [Interpretable Generative Models through Post-hoc Concept Bottlenecks](https://arxiv.org/abs/2503.19377), CVPR 2025
 
 ```
-@inproceedings{kulkarni2025interpretable
+@inproceedings{kulkarni2025interpretable,
     title={Interpretable Generative Models through Post-hoc Concept Bottlenecks},
     author={Kulkarni, Akshay and Yan, Ge and Sun, Chung-En and Oikarinen, Tuomas and Weng, Tsui-Wei},
     booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition},
